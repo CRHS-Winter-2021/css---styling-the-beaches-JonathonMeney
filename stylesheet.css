@@ -1,29 +1,32 @@
 
 
+
 #left-column{
-	width:22.5%;
+	width:20%;
 	float:left;
 	margin:10px;
 	background-color:coral;
 	padding:10px;
 	border:5px groove dimgray;
+	height:693px;
 }
 #center-column{
 	width:45%;
 	overflow:scroll;
 	float:left;
 	margin:10px;
+	padding:10px;
 	height:693px;
 	background-color: forestgreen;
 }
 #right-column{
 	width:22.5%;
-	float:right;
+	float:left;
 	margin:10px;
 	padding:10px;
 	background-color: darkcyan;
 	overflow: scroll;
-	height: 346px;
+	height: 693px;
 }
 #beach-pic{
 	width:100%;
@@ -49,6 +52,8 @@ a{
 footer{
 	clear:both;
 	background-color:darkgrey;
+	margin-bottom:8px;
+	margin-top
 }
 
 
