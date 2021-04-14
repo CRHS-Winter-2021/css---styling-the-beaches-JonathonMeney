@@ -12,10 +12,11 @@
 }
 #center-column{
 	width:45%;
-	overflow:scroll;
+	overflow-y:scroll;
 	float:left;
 	margin:10px;
 	padding:10px;
+	border:5px groove dimgray;
 	height:693px;
 	background-color: forestgreen;
 }
@@ -24,12 +25,13 @@
 	float:left;
 	margin:10px;
 	padding:10px;
+	border:5px groove dimgray;
 	background-color: darkcyan;
-	overflow: scroll;
+	overflow-y: scroll;
 	height: 693px;
 }
 #beach-pic{
-	width:100%;
+	width:99%;
 	border:5px ridge aqua;
 }
 #riptide-pic{
@@ -37,7 +39,7 @@
 }
 
 
-h1{
+.header{
 	text-align:center;
 	margin-top:50px;
 	background-color:lightblue;
@@ -85,7 +87,8 @@ footer{
 	font-family: Arial;
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
-	width: 98.8%;
+	left:0;
+	width: 100%;
 }
 /* Links inside the navbar */
 .navbar a {
@@ -152,3 +155,36 @@ footer{
 	display: block;
 	position:fixed;
 }
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+  margin-right: 40px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: magenta;
+  border-radius:50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/**/
+
+
+
+
+
+
+
