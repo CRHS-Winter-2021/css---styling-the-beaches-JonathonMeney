@@ -47,7 +47,9 @@
 body{
 	background-color: steelblue;
 	padding: 0px;
+	font-family: courier, serif;
 }
+
 a{
 	text-decoration:none;
 }
@@ -168,6 +170,7 @@ footer{
 ::-webkit-scrollbar-track {
   background: none;
   margin-right: 40px;
+  border-radius:50px;
 }
 
 /* Handle */
@@ -180,7 +183,7 @@ footer{
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-/**/
+
 
 
 
